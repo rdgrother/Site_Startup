@@ -660,7 +660,7 @@ pre code {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     margin-right: -0.75rem;
     margin-left: -0.75rem;
 }
@@ -10619,6 +10619,8 @@ header.masthead .masthead-heading {
     width: 14rem;
     height: 14rem;
     border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 .team-member h4 {
