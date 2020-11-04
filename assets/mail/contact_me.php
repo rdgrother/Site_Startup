@@ -4,11 +4,10 @@
 include ('PHPMailer-master/PHPMailerAutoload.php'); 
 include("./phpmailer/class.phpmailer.php"); 
 include("./phpmailer/class.smtp.php");
-include ('recebe.php');
  
 // Inicia a classe PHPMailer 
 $mail = new PHPMailer(); 
-$recebe = new Recebe();
+
  
 // MÃ©todo de envio 
 $mail->IsSMTP(); 
