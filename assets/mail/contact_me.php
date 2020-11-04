@@ -16,7 +16,7 @@ $mail->isSMTP();
 $mail->Host = "smtp.idstartup.com.br";
  
 // Voce pode alterar este parametro para o endereÃ§o de SMTP do seu provedor 
-$mail->Port = 587; 
+$mail->Port = 465; 
  
  
 // Usar autenticacao SMTP (obrigatorio) 
