@@ -10,22 +10,22 @@ $mail = new PHPMailer();
 
  
 // MÃ©todo de envio 
-$mail->IsSMTP(); 
+$mail->isSMTP(); 
  
 // Enviar por SMTP 
-$mail->Host = "contato@idstartup.com.br"; 
+$mail->Host = "smtp.idstartup.com.br";
  
 // Voce pode alterar este parametro para o endereÃ§o de SMTP do seu provedor 
 $mail->Port = 587; 
  
  
-// Usar autenticacao SMTP (obrigatatorio) 
+// Usar autenticacao SMTP (obrigatorio) 
 $mail->SMTPAuth = true; 
  
 // UsuÃ¡rio do servidor SMTP (endereÃ§o de email) 
 // obs: Use a mesma senha da sua conta de email 
 $mail->Username = 'contato@idstartup.com.br'; 
-$mail->Password = ''; 
+$mail->Password = 'dw4dzvtw3cvq'; 
  
 // Configurações de compatibilidade para autenticacao em TLS 
 $mail->SMTPOptions = array( 'ssl' => array( 'verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true ) ); 
@@ -38,10 +38,10 @@ $mail->SMTPOptions = array( 'ssl' => array( 'verify_peer' => false, 'verify_peer
 $mail->From = "contato@idstartup.com.br"; 
  
 // Seu nome 
-$mail->FromName = "Startup"; 
+$mail->FromName = "Contato Idstartup";
  
 // Define o(s) destinatario(s), como no exemplo
-$mail->AddAddress('$mail', '$nomeUsuario'); 
+$mail->AddAddress('contato@idstartup.com.br', 'Destinatario'); 
  
  
 // Definir se o e-mail e em formato HTML ou texto plano 
