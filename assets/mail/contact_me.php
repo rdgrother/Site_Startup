@@ -29,7 +29,7 @@ $mail->Port = 465;
 // Usar autenticacao SMTP (obrigatorio) 
 $mail->SMTPAuth = true; 
  
-// UsuÃ¡rio do servidor SMTP (endereÃ§o de email) 
+// Usuario do servidor SMTP (endereco de email) 
 // obs: Use a mesma senha da sua conta de email 
 $mail->Username = 'contato@idstartup.com.br'; 
 $mail->Password = 'dw4dzvtw3cvq'; 
