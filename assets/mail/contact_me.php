@@ -4,6 +4,13 @@
 include ('PHPMailer-master/PHPMailerAutoload.php'); 
 include("./phpmailer/class.phpmailer.php"); 
 include("./phpmailer/class.smtp.php");
+
+
+$nome = $_POST['nome'];
+$email = $_POST['email'];
+$assunto = $_POST['assunto'];
+$senhamensagem = $_POST['mensagem'];
+
  
 // Inicia a classe PHPMailer 
 $mail = new PHPMailer(); 
