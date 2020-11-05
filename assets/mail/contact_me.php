@@ -64,7 +64,7 @@ $mail->Subject = "Assunto da mensagem";
 // Corpo do email 
 $mail->Body = 'Aqui entra o conteudo texto do email'; 
  
-// Envia o e-mail 
+// Envia o e-mail aqui
 $enviado = $mail->Send(); 
  
 // Exibe uma mensagem de resultado 
